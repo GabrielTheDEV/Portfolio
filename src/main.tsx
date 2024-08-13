@@ -1,12 +1,18 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import App from './App.tsx'
 import { Header } from './Components/Header/Header.tsx'
 import './index.css'
+import { Intro } from './Components/Intro/Intro.tsx'
+import { AboutMe } from './Components/AboutMe/AboutMe.tsx'
+import { Footer } from './Components/Footer/Footer.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Header/>
-    <App />
+    <Intro/>
+    <AboutMe/>
+    {/* habilidades */}
+    {/* projetos */}
+    <Footer/>
   </StrictMode>,
 )
