@@ -1,5 +1,9 @@
 
 export function Avatar(){
 
-    return <> foto de perfil </>
+    return (
+        <div className="rounded-full bg-red-400 p-10">
+            <img src="" alt="My photo" />
+        </div>
+    )
 }
