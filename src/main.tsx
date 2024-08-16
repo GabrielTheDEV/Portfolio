@@ -5,6 +5,7 @@ import { Intro } from './Components/Intro/Intro.tsx'
 import { AboutMe } from './Components/AboutMe/AboutMe.tsx'
 import { Footer } from './Components/Footer/Footer.tsx'
 import './index.css'
+import { ProjectList } from './Components/ProjectsList/ProjectLista.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -12,7 +13,7 @@ createRoot(document.getElementById('root')!).render(
     <Intro/>
     <AboutMe/>
     {/* habilidades */}
-    {/* projetos */}
+    <ProjectList/>
     <Footer/>
   </StrictMode>,
 )
