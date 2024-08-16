@@ -11,7 +11,7 @@ function SkipPage({name}: skipPageProps ) {
 export function Navegation(){
 
     return(
-        <nav className="hidden lg:flex gap-10 ">
+        <nav className="flex gap-10 ">
            <SkipPage name={'Home'} />
            <SkipPage name={'Home'} />
            <SkipPage name={'Home'} />
