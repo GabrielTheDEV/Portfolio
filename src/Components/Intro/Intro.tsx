@@ -2,7 +2,7 @@
 export function Intro(){
 
     return(
-        <section className="w-screen flex items-center justify-center p-20 border-b">
+        <section className="w-screen flex items-center justify-center p-20 border-b ">
             <div className="flex flex-col items-center justify-center ">
                 <div className="w-64 h-64 p-10 border border-green-400 rounded-full">
                     <img 
