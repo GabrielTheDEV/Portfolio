@@ -31,14 +31,14 @@ export function AboutMe(){
                         <span>TypeScript</span>
                         <span>Jest</span>
                         <span>MongoDb</span>
-                        <span>Postgree</span>
+                        <span>PostgreSQL</span>
                         <span>Prisma</span>
                         <span>Git e GitHub</span>
                         <span>React.js</span>
                         <span>Next.js 13</span>
                         <span>ContextAPI</span>
                         <span>Redux</span>
-                        
+                        <span>Tailwind css</span>
 
 
                     </div>
