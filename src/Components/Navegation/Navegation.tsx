@@ -2,7 +2,7 @@
 export function Navegation(){
 
     return(
-        <nav className="flex gap-10 ">
+        <nav className="lg:flex hidden gap-10 ">
            <button>Sobre mim</button> 
            <button>Projetos</button> 
            <button>Experiencias</button> 
